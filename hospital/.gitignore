@@ -1,0 +1,15 @@
+node_modules
+.DS_Store
+*/.DS_Store
+dist/
+/build
+.cache
+npm-debug.log
+lerna-debug.log
+yarn-error.log
+temp
+_book
+.vscode
+website/build
+website/package.json
+packages/**/package-lock.json

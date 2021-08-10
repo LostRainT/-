@@ -1,0 +1,57 @@
+.back {
+    height: 200px;
+    padding-left: 20px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.left-part {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.avatar {
+    height: 180px;
+    width: 180px;
+    background-color: rgb(124, 100, 100);
+    border-radius: 50%;
+}
+
+.simple-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 20px;
+}
+
+.name {
+    font-size: 40px;
+    color: black;
+}
+
+.age {
+    font-size: 36px;
+    color: gray;
+}
+
+.right-part {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+
+.edit {
+    font-size: 30px;
+    color: gray;
+    margin-right: 20px;
+}
+
+.arrow {
+    width: 30px;
+    height: 30px;
+}
